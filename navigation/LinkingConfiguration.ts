@@ -15,12 +15,22 @@ const linking: LinkingOptions<RootStackParamList> = {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Camera: {
             screens: {
               TabOneScreen: 'one',
             },
           },
-          TabTwo: {
+          Chats: {
+            screens: {
+              TabTwoScreen: 'two',
+            },
+          },
+          Status: {
+            screens: {
+              TabTwoScreen: 'two',
+            },
+          },
+          Calls: {
             screens: {
               TabTwoScreen: 'two',
             },
