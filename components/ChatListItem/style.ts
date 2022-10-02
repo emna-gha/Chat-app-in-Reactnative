@@ -5,11 +5,13 @@ const styles = StyleSheet.create (
         container:{
             flexDirection:'row',
             width:"100%",
+            flex:1,
             justifyContent:'space-between',
             padding:10,
         },
         lefContainer:{
             flexDirection:'row',
+            flex:1,
         },
         midContainer:{
             justifyContent: 'space-around',
@@ -28,11 +30,13 @@ const styles = StyleSheet.create (
         },
         lastMessage:{
             fontSize:16,
-            color:'grey'
+            color:'grey',
+            width :'100%',
+          
         },
         time:{
-            fontSize:16,
-            color:'grey'
+            fontSize:14,
+            color:'grey',
         }
 
     }
