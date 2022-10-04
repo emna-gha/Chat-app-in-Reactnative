@@ -18,6 +18,7 @@ import useColorScheme from '../hooks/useColorScheme';
 import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
 import ChatsScreen from '../screens/ChatsScreen';
+import ContactsScreen from '../screens/ContactsScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
 import { RootStackParamList, MainTabParamList, RootTabScreenProps } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
@@ -71,6 +72,9 @@ function RootNavigator() {
             </View>
             )
       }} />
+      <Stack.Screen name="Contacts" 
+      component={ContactsScreen} 
+      />
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
       <Stack.Screen 
         name="ChatRoom" 

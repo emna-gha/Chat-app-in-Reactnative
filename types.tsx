@@ -17,6 +17,7 @@ export type RootStackParamList = {
   Root: NavigatorScreenParams<MainTabParamList> | undefined;
   Modal: undefined;
   NotFound: undefined;
+  Contact: undefined;
   ChatRoom: undefined;
 };
 
